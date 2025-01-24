@@ -18,4 +18,4 @@ this is  a readme for how to use the delta
 2. run `python initialize_franka.py -c tabletop -blocksfranka` under the path of `Documents/Delta-robot/teleoperation-slider`
 3. run `ssh zilinssi@nema` to start the cam
 4. run `roslaunch rosserial-hand.launch` under the path of `Documents/Delta-robot/teleoperation-slider`
-5. run `python slider-control.py -d -c` under the same path, but another terminal
+5. enabling teleoperation, run `python slider-control.py -d -c` under the same path, but another terminal
