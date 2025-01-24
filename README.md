@@ -19,3 +19,7 @@ this is  a readme for how to use the delta
 4. run `ssh zilinssi@nema` then run start the cam
 6. run `roslaunch rosserial-hand.launch` under the path of `Documents/Delta-robot/teleoperation-slider`
 7. enabling teleoperation, run `python slider-control.py -d -c` under the same path, but another terminal
+
+## shut down
+1. click to lock
+2. pull the menu on the right and click on the shut down
