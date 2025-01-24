@@ -13,4 +13,6 @@ this is  a readme for how to use the delta
 5.  press the E-stop button, the color bar turn to white
 6.  twist the E-stop button, the color bar tuen to blue. If press again, it will turn white.
 
-# 
+## start tele-hand and delta-hand
+1. run './bash_scripts/start_control_pc.sh -i iam-reality' under the path of 'Documents/frankapy'
+2. 
