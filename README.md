@@ -15,4 +15,7 @@ this is  a readme for how to use the delta
 
 ## start tele-hand and delta-hand
 1. run `./bash_scripts/start_control_pc.sh -i iam-reality` under the path of `Documents/frankapy`
-2. 
+2. run `python initialize_franka.py -c tabletop -blocksfranka` under the path of `Documents/Delta-robot/teleoperation-slider`
+3. run `ssh zilinssi@nema` to start the cam
+4. run `roslaunch rosserial-hand.launch` under the path of `Documents/Delta-robot/teleoperation-slider`
+5. run `python slider-control.py -d -c` under the same path, but another terminal
